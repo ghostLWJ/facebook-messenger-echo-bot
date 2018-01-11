@@ -3,7 +3,7 @@ let bodyParser = require('body-parser')
 let request = require('request')
 let app = express()
 
-const FACEBOOK_ACCESS_TOKEN = 'EAADsIyqCZCb0BAAM4Y3ZA6t3orft79ZBEdLp2sMPRus2RUn9zktx810X4t8UznHr7S6vtKMtVZCG2ZCq5MuGIhP8UNXPHYVgPwWXDq62L24rtKnTdFAff2qlFuQGYMSZCUwa7Iee0vmSvqZC1gngXGtikDzHZAd07IUMgImKcf4NImtkbCViU9Bq'
+const FACEBOOK_ACCESS_TOKEN = 'EAADsIyqCZCb0BAJYVWpBrwWg0Hgy6Dulg2IYkOgEhjZByHvjsT3NIE7RR9nwYD0ueKBdiZACNqiwyZAQuFeaTs5QPSfuqT7FZAL6SCOgA6pPg4fxZBehALRLaHrjNgsBCv3m5ObwCECEJ9dHT7DFtyvuA3YVN0UXySShtPMisQGpYTvcEhG2Sx'
 const PORT = process.env.PORT || 3000
 const VERIFY_TOKEN = 'ghostlwj_token'
 
