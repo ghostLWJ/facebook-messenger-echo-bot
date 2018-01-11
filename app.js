@@ -5,7 +5,7 @@ let app = express()
 
 const FACEBOOK_ACCESS_TOKEN = 'EAADsIyqCZCb0BAAM4Y3ZA6t3orft79ZBEdLp2sMPRus2RUn9zktx810X4t8UznHr7S6vtKMtVZCG2ZCq5MuGIhP8UNXPHYVgPwWXDq62L24rtKnTdFAff2qlFuQGYMSZCUwa7Iee0vmSvqZC1gngXGtikDzHZAd07IUMgImKcf4NImtkbCViU9Bq'
 const PORT = process.env.PORT || 3000
-const VERIFY_TOKEN = 'Your_Verify_Token'
+const VERIFY_TOKEN = 'ghostlwj_token'
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
